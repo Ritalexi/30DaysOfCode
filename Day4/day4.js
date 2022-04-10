@@ -15,7 +15,7 @@ function showMyDetails(){
 const myDetails = details.name + '/' + details.age + '/' + details.level;
 myArr.push(myDetails);
         });
-        console.log(myArr);
+    return.log(myArr);
     
 }
 console.log(showMyDetails());
