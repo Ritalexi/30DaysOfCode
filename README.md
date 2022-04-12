@@ -5,3 +5,5 @@
 # Day 2: https://github.com/Ritalexi/30DaysOfCode/blob/master/Day2/valid.js, using this github is confusing tho, spent one hour just trying to pull
 # Day 3: https://github.com/Ritalexi/30DaysOfCode/tree/master/Day3
 # Day 4: https://github.com/Ritalexi/30DaysOfCode/tree/master/Day4
+# Day 5: https://github.com/Ritalexi/30DaysOfCode/blob/master/Day5/day5.js
+# Day 6: https://github.com/Ritalexi/30DaysOfCode/blob/master/Day6/day6.js
