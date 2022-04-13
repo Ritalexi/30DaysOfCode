@@ -9,4 +9,4 @@
 # Day 6: https://github.com/Ritalexi/30DaysOfCode/blob/master/Day6/day6.js
 # Day 7: https://github.com/Ritalexi/30DaysOfCode/blob/master/Day7/day7.js
 # Day 8: https://github.com/Ritalexi/30DaysOfCode/blob/master/Day8/day8.js
-# Please I don't understand what you meant by poor immplementaion for my day 5
+# Please I don't understand what you meant by wrong immplementaion for my day 5
