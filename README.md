@@ -12,3 +12,4 @@
 # Please I don't understand what you meant by wrong immplementaion for my day 5, could you explain
 # Day 9: https://github.com/Ritalexi/30DaysOfCode/blob/master/Day9/day9.js
 # Day 10: https://github.com/Ritalexi/30DaysOfCode/blob/master/Day10/day10.js
+# Day 11&12: https://ritalexi.github.io/30DaysOfCode/Day11_12/Day11&12/
