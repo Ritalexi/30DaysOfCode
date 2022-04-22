@@ -1,0 +1,165 @@
+@import url('https://fonts.google.com/specimen/Red+Hat+Display');
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+background: url("./images/pattern-background-desktop.svg") no-repeat;
+background-color: hsl(225, 100%, 94%);
+}
+#container1
+{
+    width: 350px;
+    border-radius: 15px;
+    margin: 4% auto ;
+    background-color: white;
+}
+#img1
+{
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    width:100%;
+}
+#content{
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900
+}
+
+p
+{
+    font-weight: 500;
+    text-align: center;
+    font-size: 16px;
+    color:  hsl(224, 23%, 55%);
+    margin: 5% auto;
+    padding: 0% 5px;
+}
+
+#container2
+{
+    width: 90%;
+ display: flex;
+ background-color: hsl(225, 100%, 98%);
+ border-radius: 15px;
+padding: 5px ;
+margin: 0% auto;
+}
+h2
+{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 16px;
+}
+span
+{
+    font-weight: 500;
+    font-size: 16px;
+    color:  hsl(224, 23%, 55%);
+}
+.container1{
+    width: 20%;
+    margin-left: 20px;
+}
+.container2
+{
+    width: 40%;
+    text-align: center;
+    position: relative;
+    top: 8px;
+}
+.container3
+{
+   width: 40%;
+   text-align: center;
+   position: relative;
+    top: 15px;
+}
+ a 
+{
+    color: (223, 47%, 23%);
+}
+ a:hover
+{
+    color:  hsl(224, 23%, 55%) ;
+    text-decoration: none;
+    cursor: pointer;
+}
+button
+{
+    width: 90%;
+    background: none;
+    background-color: hsl(223, 47%, 23%);
+    color:  hsl(225, 100%, 98%);
+    border: transparent;
+    font: inherit;
+    outline: inherit;
+margin: 5%;
+padding: 5% 0%;
+border-radius: 10px;
+}
+button:hover
+{
+    background-color:  hsl(224, 23%, 55%) ;
+    text-decoration: none;
+    cursor: pointer;
+}
+.container4
+{
+    padding-bottom: 8%;
+}
+.container4 a
+{
+color: hsl(224, 23%, 55%);
+text-decoration: none;
+}
+.container4 a:hover
+{
+    color:  hsl(223, 47%, 23%);
+    cursor: pointer;
+}
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+@media screen and (max-width: 500px){
+body
+{
+background-image: url("./images/pattern-background-mobile.svg") no-reapeat;
+}
+#container1
+{
+    width:80%
+}
+p 
+{
+    width: 60vw;
+}
+.container1{
+    width: 20%;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.container2
+{
+    width: 40%;
+    text-align: center;
+    position: relative;
+    top: 8px;
+  left: 5px;
+}
+.container3
+{
+   width: 40%;
+   text-align: center;
+   position: relative;
+    top: 15px;
+    left: 5px;
+}
+
+    }
+
+    
