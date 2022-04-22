@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./stylesheet.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope">
+  <title>Frontend Mentor | Interactive pricing component</title>
+</head>
+<body>
+
+ <section class="intro_section">
+      <h1>Simple, traffic-based pricing</h1>
+ <p> Sign-up for our 30-day trial. No credit card required.</p>
+</section> 
+
+ <main> 
+
+     <div class="range_section">
+      <div>
+         <span class="range_section_pageviews">
+        100k Pageviews</span>
+        <b>$16.00</b>
+        <span class="range_section_price"> /month</span>
+      </div>
+     <div class="range"> 
+       <input type="range" name="range" id="range" min="0" max="100" value="50">
+       <div id="selector">
+         <div class="selectBtn"></div>
+       </div>
+       <div id="progressBar"></div>
+    </div>
+    </div>
+
+  <div id="range_mobile_section">
+    <section class="range_mobile_section">
+      <span class="range_section_pageviews">100k Pageviews</span>
+      <div class="range"> 
+        <input type="range" name="range" id="range" min="0" max="100" value="50">
+        <div id="selector">
+          <div class="selectBtn"></div>
+        </div>
+        <div id="progressBar"></div>
+     </div>
+     
+     <span class="range_section_price"><b>$16.00</b> <span>/month</span></span>
+    </section>
+ </div>
+
+<section id="toggle_section">
+  <div>
+   <span id="billing1">Monthly Billing</span>
+    <input type="checkbox" name="checkbox" id="checkbox">
+  <span id="billing2">  Yearly Billing </span>
+    <span id="discount">25% <span>discount</span></span>
+  </div>
+</section>
+<section id="list_section">
+<div id="list">  
+  <ul>
+    <li>Unlimited websites</li>
+     <li>100% data ownership</li>
+     <li> Email reports</li>
+  </ul>
+</div>
+ <div id="button"> <button>Start my trial</button></div>
+</section>
+  </main>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Okoli Ogochukwu Rita</a>.
+  </div>
+</body>
+<script src="./range.js"></script>
+</html>
