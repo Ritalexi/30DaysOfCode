@@ -7,7 +7,11 @@ for (let i = 1; i <= num; i++)
     if(i % 3 === 0 && i % 5 === 0) {
         result.push( 'FIZZBUZZ' );
     }
+ Day15_16
+    else if(i % 3 === 0) {
+
    else if(i % 3 === 0) {
+ master
 
         result.push( 'FIZZ' );
     }

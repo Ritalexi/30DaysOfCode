@@ -145,28 +145,83 @@ display: none;
     }
     #range_mobile_section{
         display: block;
+        text-align: center;
         }
         .range_mobile_section{
             display: flex;
             flex-direction: column;
             text-align: center;
         }
-        .range_section_pageviews{
+        .range_section_pageviewsm{
             margin: 5% 0%;
         }
-        .range{
+        .rangem{
             margin: 5% 0% 0% 0%;
         }
-        .range_section_price{
+        .range_section_pricem{
             margin: 0%;
             position: relative;
             top: -30px;
         }
-        .range_section_price span{
+        .range_section_pricem span{
             position: relative;
             top: -7px;
         }
+        #rangem{
+            -webkit-appearance: none;
+            width: 100%;
+            height: 10px;
+            outline: none;
+            border-radius: 10px;
+            background: hsl(224, 65%, 95%);
+        }
+        #rangem::-webkit-slider-thumb{
+            -webkit-appearance: none;
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+            z-index: 3;
+            position: relative;
+        }
+        
+        #selectorm{
+            width: 40px;
+            position: relative;
+           top: -30px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 2;
+        }
+        .selectBtnm{
+            width: 40px;
+            height: 40px;
+            background-image: url('./images/icon-slider.svg');
+            background-position: center;
+           background-repeat: no-repeat;
+            border-radius: 50%;
+            background-color: hsl(174, 86%, 45%);
+            box-shadow: 0 15px 10px hsl(174, 77%, 80%);
+        }
+        .selectBtnm:hover{
+            background-color: hsl(174, 42%, 69%);
+            background-image: url('./images/icon-slider.svg');
+            background-position: center;
+           background-repeat: no-repeat;
+           cursor: pointer;
+           transition: .3s ease-in-out;
+        }
+        
+        #progressBarm{
+            width: 50%;
+            height: 10px;
+            position: relative;
+            top: -54.5px;
+            left: 0;
+            background-color: hsl(174, 77%, 80%);
+            border-radius: 10px;
+        }
 }
+
 #toggle_section{
     text-align: center;
     position: relative;
@@ -266,7 +321,12 @@ input[type="checkbox"]:checked::before
             left: 5px;
         }
 }
-
+@media screen and (max-width: 330px) {
+    #discount{
+        position: relative;
+        top: 5px;
+    }
+}
 #list_section{
     position: relative;
     top: -5px;
