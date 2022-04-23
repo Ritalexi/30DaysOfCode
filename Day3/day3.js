@@ -1,11 +1,13 @@
 let value = [];
 function fizzbuzz (num){
+ Day15_16
        num.forEach(element => {
-           let answer = [];
-        for (let j = 1; j <= element; j++)
-        {
 
-            if(j % 3 === 0 && j % 5 === 0) {
+ num.forEach(element => {
+ master
+           let answer = [];
+        for (let j = 1; j <= element; j++) {
+         if(j % 3 === 0 && j % 5 === 0) {
                 let x = 'FIZZBUZZ';
             answer.push(x);
             }
