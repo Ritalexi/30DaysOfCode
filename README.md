@@ -13,3 +13,5 @@
 # Day 9: https://github.com/Ritalexi/30DaysOfCode/blob/master/Day9/day9.js
 # Day 10: https://github.com/Ritalexi/30DaysOfCode/blob/master/Day10/day10.js
 # Day 11&12: https://ritalexi.github.io/30DaysOfCode/Day11_12/Day11&12/
+# Day 13&14:  https://ritalexi.github.io/30DaysOfCode/Day13_14
+# Day 15&16:  https://ritalexi.github.io/30DaysOfCode/Day15_16
