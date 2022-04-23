@@ -7,11 +7,11 @@ for (let i = 1; i <= num; i++)
     if(i % 3 === 0 && i % 5 === 0) {
         result.push( 'FIZZBUZZ' );
     }
-    if(i % 3 === 0) {
+    else if(i % 3 === 0) {
 
         result.push( 'FIZZ' );
     }
-    if( i % 5 === 0 ) {
+    else if( i % 5 === 0 ) {
         result.push( 'BUZZ' );
     } else
     {

@@ -64,18 +64,17 @@ span
 }
 .container1{
     width: 20%;
-    margin-left: 20px;
+   margin: 5px 5px 0px 8px;
 }
 .container2
 {
-    width: 40%;
+    width: 50%;
     text-align: center;
-    position: relative;
-    top: 8px;
+    margin-top: 4%;
 }
 .container3
 {
-   width: 40%;
+   width: 30%;
    text-align: center;
    position: relative;
     top: 15px;
@@ -132,25 +131,13 @@ background-image: url("./images/pattern-background-mobile.svg") no-reapeat;
 }
 #container1
 {
-    width:80%
+    width: 90%
 }
 p 
 {
     width: 60vw;
 }
-.container1{
-    width: 20%;
-    margin-left: 10px;
-    margin-right: 5px;
-}
-.container2
-{
-    width: 40%;
-    text-align: center;
-    position: relative;
-    top: 8px;
-  left: 5px;
-}
+
 .container3
 {
    width: 40%;

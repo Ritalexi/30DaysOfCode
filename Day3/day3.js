@@ -1,7 +1,5 @@
 let value = [];
 function fizzbuzz (num){
-
- 
        num.forEach(element => {
            let answer = [];
         for (let j = 1; j <= element; j++)
@@ -24,11 +22,9 @@ function fizzbuzz (num){
             let w =  j ;
            answer.push(w);
             }
-        
         }
 value.push(answer);
        });
-   
    }
    fizzbuzz ([10,12,13]);
 console.log(value);
