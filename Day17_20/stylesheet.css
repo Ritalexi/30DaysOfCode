@@ -9,7 +9,7 @@ body{
 }
 main{
     width: 400px;
-    margin: 200px auto 5% auto;
+    margin: 150px auto 5% auto;
     background-color: hsl(217, 19%, 24%);
     background-size: 90%;
     border-radius: 10px;
