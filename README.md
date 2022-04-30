@@ -15,3 +15,4 @@
 # Day 11&12: https://ritalexi.github.io/30DaysOfCode/Day11_12/Day11&12/
 # Day 13&14:  https://ritalexi.github.io/30DaysOfCode/Day13_14
 # Day 15&16:  https://ritalexi.github.io/30DaysOfCode/Day15_16
+# Day17 to 20: https://ritalexi.github.io/30DaysOfCode/Day17_20
